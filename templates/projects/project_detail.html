@@ -1,10 +1,16 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block page_content %}
-    <h1>Project Detail</h1>
-    <p>{{ object.title}}</p>
-    <p>{{ object.description}}</p>
-    <p>{{ object.technology}}</p>
-    <p>{{ object.github}}</p>
-    <p>{{ object.demo}}</p>
+    <div class='page-wrapper'>
+        <div class='project'>
+            <p>{{ object.title}}</p>
+            <p>{{ object.description}}</p>
+            <p>{{ object.technology}}</p>
+            <p>{{ object.github}}</p>
+            <p>{{ object.demo}}</p>
+        </div>
+       
+    </div>
+   
+    
 {% endblock page_content %}

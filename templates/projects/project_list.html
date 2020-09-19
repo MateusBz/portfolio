@@ -1,8 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block page_content %}
-    <h1>Projects</h1>
-    {% for project in projects  %}
-        <p>{{ project.title }}</p><a href="{% url 'project_detail' project.pk %}">Read more</a>
-    {% endfor %}
+    <div class='page-wrapper'>
+        <div class='project'>
+            {% for project in projects  %}
+                <h2 class='project-title'>{{ project.title }}</h2>
+                <p class='project-description'>{{ project.description }}<p>
+                <a href="{% url 'project_detail' project.pk %}">Read more</a>
+            {% endfor %}
+        </div>
+       
+    </div>
+    
 {% endblock page_content %}

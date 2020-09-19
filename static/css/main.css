@@ -1,7 +1,35 @@
 header {
+    padding-top: 2rem;
     text-align: center; 
     text-transform: uppercase; 
 }
 .nav{
     text-transform: uppercase;
+}
+.nav-link {
+    color: black;
+}
+a{
+    color:gray ;
+}
+
+.page-wrapper{
+    padding-top: 2rem;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.project{
+    
+}
+
+.project-title{
+    padding-top: 1rem;
+}
+
+.project-description{
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
