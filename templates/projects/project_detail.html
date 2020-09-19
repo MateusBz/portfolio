@@ -1,6 +1,10 @@
-<h1>Project Detail</h1>
-<p>{{ object.title}}</p>
-<p>{{ object.description}}</p>
-<p>{{ object.technology}}</p>
-<p>{{ object.github}}</p>
-<p>{{ object.demo}}</p>
+{% extends 'base.html' %}
+{% load static %}
+{% block page_content %}
+    <h1>Project Detail</h1>
+    <p>{{ object.title}}</p>
+    <p>{{ object.description}}</p>
+    <p>{{ object.technology}}</p>
+    <p>{{ object.github}}</p>
+    <p>{{ object.demo}}</p>
+{% endblock page_content %}
