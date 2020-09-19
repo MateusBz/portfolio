@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/mateusz/.local/share/virtualenvs/m_portfolio-SqWdathY/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
