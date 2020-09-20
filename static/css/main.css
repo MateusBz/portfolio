@@ -1,8 +1,13 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 header {
     padding-top: 2rem;
     text-align: center; 
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
+
 .nav{
     text-transform: uppercase;
 }
@@ -14,13 +19,12 @@ a{
 }
 
 .page-wrapper{
-    padding-top: 2rem;
     max-width: 42rem;
     margin: 0 auto;
 }
 
 .project{
-    
+    padding-top: 2rem;
 }
 
 .project-title{
