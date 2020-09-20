@@ -3,14 +3,13 @@
 {% block page_content %}
     <div class='page-wrapper'>
         <div class='project'>
-            <p>{{ object.title}}</p>
-            <p>{{ object.description}}</p>
-            <p>{{ object.technology}}</p>
-            <p>{{ object.github}}</p>
-            <p>{{ object.demo}}</p>
+            <h5>Title: </h5><p>{{ object.title}}</p>
+            <h5>Description: </h5><p>{{ object.description}}</p>
+            <h5>Technology: </h5><p>{{ object.technology}}</p>
+            <h5>GitHub: </h5> <p><a href='{{ object.github}}'>{{ object.github}}</a></p>
+            {% if object.demo %}
+                <h5>Demo: </h5><p> {{ object.demo}}</p>
+            {% endif %}
         </div>
-       
     </div>
-   
-    
 {% endblock page_content %}
