@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block page_content %}
+    {% for post in posts  %}
+        <p>{{ post.title}}</p>
+        <p>{{ post.created_on|date:'Y-m-d'}}</p>
+        <p>{{ post.body}}</p>
+    {% endfor %}
+{% endblock page_content %}
