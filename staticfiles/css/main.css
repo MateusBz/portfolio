@@ -1,0 +1,39 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    padding-top: 2rem;
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.nav{
+    text-transform: uppercase;
+}
+.nav-link {
+    color: black;
+}
+a{
+    color:gray ;
+}
+
+.page-wrapper{
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.project{
+    padding-top: 2rem;
+}
+
+.project-title{
+    padding-top: 1rem;
+}
+
+.project-description{
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
