@@ -27,13 +27,11 @@ a{
     padding-top: 2rem;
 }
 
-.project-title{
-    padding-top: 1rem;
+.project{
+    padding-top: 2rem;
+    padding-left: 0.5rem;
 }
 
-.project-description{
-    width: 600px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.project-title{
+    padding-top: 1rem;
 }
