@@ -1,5 +1,5 @@
 from datetime import datetime
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, TemplateView
 
 from .models import Post, Category
 
@@ -10,4 +10,6 @@ class PostListView(ListView):
 
 class PostDetailView(DetailView):
     model = Post
-    
+
+class AboutMeView(TemplateView):
+    template_name = 'blog/about.html' 

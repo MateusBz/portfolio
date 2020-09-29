@@ -13,7 +13,6 @@ header {
 }
 .nav-link {
     color: black;
-    
 }
 a{
     color:gray ;
@@ -32,4 +31,9 @@ a{
 
 .project-title{
     padding-top: 1rem;
+}
+
+.project-description{
+    text-align: justify;
+    padding-right: 0.5rem;
 }
