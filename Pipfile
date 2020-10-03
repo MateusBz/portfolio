@@ -12,6 +12,7 @@ gunicorn = "*"
 whitenoise = "*"
 dj-database-url = "*"
 django-environ = "*"
+django-ckeditor = "*"
 
 [requires]
 python_version = "3.8"

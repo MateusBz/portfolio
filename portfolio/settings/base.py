@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'projects.apps.ProjectsConfig',
     'blog.apps.BlogConfig',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
