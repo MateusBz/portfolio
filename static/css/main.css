@@ -14,8 +14,9 @@ header {
 .nav-link {
     color: black;
 }
-a{
+a:link, a:hover, a:visited{
     color:gray ;
+    
 }
 
 .page-wrapper{
@@ -31,6 +32,11 @@ a{
 
 .project-title{
     padding-top: 1rem;
+}
+
+.project-title a{
+    text-decoration: none;
+    color:#212529 ;
 }
 
 .project-description{

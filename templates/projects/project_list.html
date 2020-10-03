@@ -4,7 +4,7 @@
     
         <div class='project'>
             {% for project in projects  %}
-                <h2 class='project-title'>{{ project.title }}</h2>
+                <a href="{% url 'project_detail' project.pk %}"><h2 class='project-title'>{{ project.title }}</a></h2>
                 <p class='project-description'>{{ project.description }}<p>
                 <a href="{% url 'project_detail' project.pk %}">Read more</a>
             {% endfor %}
