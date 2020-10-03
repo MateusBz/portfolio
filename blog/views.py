@@ -12,4 +12,6 @@ class PostDetailView(DetailView):
     model = Post
 
 class AboutMeView(TemplateView):
-    template_name = 'blog/about.html' 
+    template_name = 'blog/about.html'
+
+ 
