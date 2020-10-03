@@ -41,7 +41,7 @@ a{
 
 .info{
     text-align: justify;
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     
@@ -58,4 +58,20 @@ a{
     display: inline;
     padding: 3rem;
 
+}
+.post{
+    padding-top: 2rem;
+}
+
+.post-title{
+    padding-top: 1rem;
+}
+.post-date{
+    color: gray;
+    font-style: italic;
+    font-size: small;
+}
+
+.post-summary{
+    padding-top: 1rem;
 }
