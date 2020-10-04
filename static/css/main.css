@@ -85,3 +85,7 @@ a:link, a:hover, a:visited{
 .post-body{
     text-align: justify;
 }
+
+.tag-name{
+    padding-top: 3rem;
+}
