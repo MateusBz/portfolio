@@ -9,7 +9,7 @@
         <div class='post-category'>
                 Category: 
                 {% for category in post.categories.all  %}
-                    {{ category }}
+                    <a href="{% url 'post_category' category %}">{{ category }}</a>
                 {% endfor %}
             </div>
             <br>

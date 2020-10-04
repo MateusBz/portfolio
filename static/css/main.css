@@ -72,6 +72,11 @@ a:link, a:hover, a:visited{
 .post-title{
     padding-top: 1rem;
 }
+
+.post-title a{
+    text-decoration: none;
+    color:#212529 ;
+}
 .post-date{
     color: gray;
     font-style: italic;
