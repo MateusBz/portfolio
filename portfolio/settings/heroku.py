@@ -2,7 +2,7 @@ import environ
 
 from portfolio.settings.base import *
 
-env = environ.Env(DEBUG=(bool, False))
+env = environ.Env(DEBUG=(bool, True))
 
 DEBUG = env('DEBUG')
 
