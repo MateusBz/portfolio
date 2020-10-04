@@ -7,11 +7,10 @@
             </div>
             <div class='post-date'>{{ post.created_on|date:'Y-m-d'}}
             </div>
-            <br>
             <div class='post-category'>
                 Category: 
-                {% for category in post.category.all  %}
-                    {{ category }},
+                {% for category in post.categories.all  %}
+                    <a href="{% url 'post_category' category %}">{{ category }}</a>
                 {% endfor %}
             </div>
             <div class='post-summary'>{{ post.summary}} </div>
