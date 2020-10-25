@@ -43,7 +43,9 @@ a:link, a:hover, a:visited{
     text-align: justify;
     padding-right: 0.5rem;
 }
-
+.github-link{
+    text-align: justify;
+}
 
 .info{
     text-align: justify;
